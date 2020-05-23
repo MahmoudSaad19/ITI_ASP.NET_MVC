@@ -1,0 +1,85 @@
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\bin\Debug\netcoreapp3.1\Google API Authentication.StaticWebAssets.xml
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\bin\Debug\netcoreapp3.1\Google API Authentication.exe
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\obj\Debug\netcoreapp3.1\Google API Authentication.csprojAssemblyReference.cache
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\obj\Debug\netcoreapp3.1\staticwebassets\Google API Authentication.StaticWebAssets.Manifest.cache
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\obj\Debug\netcoreapp3.1\staticwebassets\Google API Authentication.StaticWebAssets.xml
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\obj\Debug\netcoreapp3.1\Google API Authentication.RazorAssemblyInfo.cache
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\obj\Debug\netcoreapp3.1\Google API Authentication.RazorAssemblyInfo.cs
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\obj\Debug\netcoreapp3.1\Google API Authentication.AssemblyInfoInputs.cache
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\obj\Debug\netcoreapp3.1\Google API Authentication.AssemblyInfo.cs
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\obj\Debug\netcoreapp3.1\Google API Authentication.TagHelpers.input.cache
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\obj\Debug\netcoreapp3.1\Google API Authentication.TagHelpers.output.cache
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\obj\Debug\netcoreapp3.1\Google API Authentication.RazorCoreGenerate.cache
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\obj\Debug\netcoreapp3.1\Google API Authentication.RazorTargetAssemblyInfo.cache
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\obj\Debug\netcoreapp3.1\Google API Authentication.RazorTargetAssemblyInfo.cs
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\obj\Debug\netcoreapp3.1\Google API Authentication.csproj.CopyComplete
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\bin\Debug\netcoreapp3.1\Google API Authentication.deps.json
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\bin\Debug\netcoreapp3.1\Google API Authentication.runtimeconfig.json
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\bin\Debug\netcoreapp3.1\Google API Authentication.runtimeconfig.dev.json
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\bin\Debug\netcoreapp3.1\Google API Authentication.dll
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\bin\Debug\netcoreapp3.1\Google API Authentication.pdb
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\bin\Debug\netcoreapp3.1\Google API Authentication.Views.dll
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\bin\Debug\netcoreapp3.1\Google API Authentication.Views.pdb
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.Google.dll
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\obj\Debug\netcoreapp3.1\Google API Authentication.Views.pdb
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\obj\Debug\netcoreapp3.1\Google API Authentication.dll
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\obj\Debug\netcoreapp3.1\Google API Authentication.pdb
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\bin\Debug\netcoreapp3.1\credentials.json
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.Facebook.dll
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\obj\Debug\netcoreapp3.1\Google API Authentication.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Mahmoud\source\repos\MVC Day 9 Labs\Google API Authentication\obj\Debug\netcoreapp3.1\Google API Authentication.MvcApplicationPartsAssemblyInfo.cache

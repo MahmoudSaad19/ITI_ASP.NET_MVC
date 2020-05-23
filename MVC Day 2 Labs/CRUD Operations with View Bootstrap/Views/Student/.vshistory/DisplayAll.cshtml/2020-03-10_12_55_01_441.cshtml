@@ -1,0 +1,32 @@
+﻿@model CRUD_Operations_with_View_Bootstrap.Models.Student
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>DisplayAll</title>
+</head>
+<body>
+    <div> 
+        <table>
+            <tr>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+            <tr>
+                @foreach (var item in Model)
+                {
+                    <td>@item</td>
+                }
+            </tr>
+        </table>
+       
+    </div>
+</body>
+</html>

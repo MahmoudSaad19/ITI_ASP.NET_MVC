@@ -1,0 +1,36 @@
+﻿@model ICollection<CRUD_Operations_with_DB_Context.Models.Product>
+@{
+    ViewBag.Title = "DisplayAll";
+}
+
+<div class="container">
+    <table class="table table-striped">
+        <tr>
+            <th>ID</th>
+            <th>Product Name</th>
+            <th>Price</th>
+            <th>Units in Stock</th>
+            <th>Supplier Name</th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.ID</td>
+                <td>@item.ProductName</td>
+                <td>@item.Price</td>
+                <td>@item.Units</td>
+                <td>@item.SupplierID</td>
+                <td><a href="/Student/Update/@item.ID" class="btn btn-default">Update</a></td>
+                <td><a href="/Student/Delete/@item.ID" class="btn btn-danger">Delete</a></td>
+            </tr>
+
+        }
+    </table>
+    <center>
+        <a class="btn btn-success" href="/Student/insert">Add New Student</a>
+    </center>
+
+</div>
+
+

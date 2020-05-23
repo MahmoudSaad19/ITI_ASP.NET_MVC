@@ -1,0 +1,43 @@
+﻿@model CRUD_Operations_with_DB_Context.Models.Product
+
+@{
+    ViewBag.Title = "Update";
+}
+
+<div style="height:30px">
+
+</div>
+
+<div style="height:380px; text-align:center;" class="d-flex">
+    @using (Html.BeginForm("Update", "product", FormMethod.Post, htmlAttributes: new { @class = "form-row d-flex" }))
+    {
+        <label class="d-md-inline col-md-2">Product Name</label>
+        @Html.TextBoxFor(p => p.ProductName, htmlAttributes: new { @class = "d-md-inline col-md-6" , value= "@Model.ProductName" })
+        @Html.ValidationMessageFor(p => p.ProductName, "", htmlAttributes: new { style = "color:red;" })
+        <br />
+        <br />
+        <label class="d-md-inline col-md-2">Product Price</label>
+        @Html.TextBoxFor(p => p.Price, htmlAttributes: new { @class = "d-md-inline col-md-6", min = "1", max = "1000000" })
+        @Html.ValidationMessageFor(p => p.Price, "", htmlAttributes: new { style = "color:red;" })
+        <br />
+        <br />
+        <label class="d-md-inline col-md-2">Units in Stock</label>
+        @Html.TextBoxFor(p => p.Units, htmlAttributes: new { @class = "d-md-inline col-md-6", min = "0", max = "10000" })
+        @Html.ValidationMessageFor(p => p.Units, "", htmlAttributes: new { style = "color:red;" })
+        <br />
+        <br />
+        <label class="d-md-inline col-md-2">Supplier Name</label>
+        @ SelectList listItems = new SelectList(Model.Supplier as IEnumerable<CRUD_Operations_with_DB_Context.Models.Supplier>, "SupID", "Name", Model.SupplierID);
+        @Html.DropDownList("SupplierID", listItems, htmlAttributes: new { @class = "d-md-inline col-md-6", style = "height:48px" })
+        @Html.ValidationMessageFor(p => p.SupplierID, "", htmlAttributes: new { style = "color:red;" })
+        <br />
+        <br />
+        <input type="submit" value="Modify" class="btn btn-success" />
+    }
+</div>
+
+@section scripts{
+    @Scripts.Render("~/bundles/jqueryval");
+}
+
+

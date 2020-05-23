@@ -1,0 +1,43 @@
+﻿@model List<CRUD_Operations_with_View_Bootstrap.Models.Student>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>DisplayAll</title>
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+</head>
+<body>
+    <div> 
+        <table class="table table-striped">
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Address</th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.ID</td>
+                    <td>@item.Name</td>
+                    <td>@item.Age</td>
+                    <td>@item.Address</td>
+                    <td><a href="Student/Update/@item.ID" class="btn btn-default">Update</a></td>
+                    <td><a href="Student/Delete/@item.ID" class="btn btn-danger">Delete</a></td>
+                </tr>
+
+            }
+        </table>
+        <center>
+            <a class="btn btn-success" href="insert">Add New Student</a>
+        </center>
+       
+    </div>
+</body>
+</html>

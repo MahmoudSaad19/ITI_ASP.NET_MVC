@@ -1,0 +1,61 @@
+﻿@model string
+
+    <h1 style="color:red;">
+        @Model
+
+    </h1>
+
+@Html.Action("")
+@Html.ActionLink("", "")
+@Html.BeginForm()
+@Html.BeginRouteForm("")
+@Html.CheckBox("")
+@Html.CheckBoxFor(s => s.Contains(""))
+@Html.Display("")
+@Html.DisplayFor(s => s)
+@Html.DisplayForModel()
+@Html.DisplayName("")
+@Html.DisplayNameFor(s => s)
+@Html.DisplayNameForModel()
+@Html.DisplayText("")
+@Html.DisplayTextFor(s => s)
+@Html.DropDownList("")
+@Html.DropDownListFor(l => l, null)
+@Html.Editor("")
+@Html.EditorFor(s => s)
+@Html.EditorForModel()
+@{Html.EndForm(); }
+@Html.EnumDropDownListFor(s => s)
+@Html.Hidden("")
+@Html.HiddenFor(l => l)
+@Html.Id("")
+@Html.IdFor(i => i)
+@Html.IdForModel()
+@Html.Label("")
+@Html.LabelFor(s => s)
+@Html.LabelForModel()
+@Html.ListBox("")
+@Html.ListBoxFor(l => l, null)
+@Html.Name("")
+@Html.NameFor(n => n)
+@Html.NameForModel()
+@Html.Partial("")
+@Html.Password("")
+@Html.PasswordFor(p => p)
+@Html.RadioButton("", null)
+@Html.RadioButtonFor(r => r, null)
+@{Html.RenderAction("");}
+@{Html.RenderPartial("");}
+@Html.RouteLink("", null)
+@Html.TextArea("")
+@Html.TextAreaFor(t => t)
+@Html.TextBox("")
+@Html.TextBoxFor(t => t)
+@{Html.Validate(""); }
+@{Html.ValidateFor(v => v); }
+@Html.ValidationMessage("")
+@Html.ValidationMessageFor(v=>v)
+@Html.ValidationSummary()
+@Html.Value("")
+@Html.ValueFor(v=>v)
+@Html.ValueForModel()

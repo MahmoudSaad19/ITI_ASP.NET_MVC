@@ -1,0 +1,35 @@
+﻿@model CRUD_Operations_with_View_Bootstrap.Models.Student
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Update</title>
+</head>
+<body>
+    <div>
+        <center>
+            <form class="form-group col-lg-6" action="student/insert">
+                <label>ID</label>
+                <input type="text" name="ID" value="@Model.ID" class="form-control" readonly />
+
+                <label>Name</label>
+                <input type="text" name="Name" value="@Model.Name" class="form-control" />
+
+                <label>Age</label>
+                <input type="text" name="Age" value="@Model.Age" class="form-control" />
+
+                <label>Address</label>
+                <input type="text" name="Address" value="@Model.Address" class="form-control" />
+
+                <input type="submit" class="btn btn-success" />
+            </form>
+        </center>
+    </div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+﻿@model CRUD_Operations_with_DB_Context.Models.Product
+
+@{
+    ViewBag.Title = "Update";
+}
+
+    <section>
+        <div style="height:500px; text-align:center;">
+                <form class="form-group col-lg-6 d-flex" action="/Product/update" method="post">
+                    <label class="d-inline">ID</label>
+                    <input type="text" name="ID" value="@Model.ID" class="form-control d-inline-flex col-8" readonly />
+                    <br />
+                    <label>Product Name</label>
+                    <input type="text" name="Name" value="@Model.ProductName" class="form-control" />
+                    <br />
+                    <label>Product Price</label>
+                    <input type="text" name="Age" value="@Model.Price" class="form-control" />
+                    <br />
+                    <label>Units in Stock</label>
+                    <input type="text" name="Address" value="@Model.Units" class="form-control" />
+                    <br />
+                    <input type="submit" class="btn btn-success" />
+                </form>
+                @*<form>
+                    <div class="form-group row">
+                        <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+                        <div class="col-sm-10">
+                            <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="email@example.com">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+                        <div class="col-sm-10">
+                            <input type="password" class="form-control" id="inputPassword">
+                        </div>
+                    </div>
+                </form>*@
+        </div>
+
+    </section>
+

@@ -1,0 +1,117 @@
+﻿@model IEnumerable<Single_Page_App.Models.Product>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ProductName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Units)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Price)
+        </th>
+        <th></th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProductName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Units)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                <a href="/products/Edit/@item.ID" class="btn btn-light" onclick="closemodale(@item.ID)"> Edit </a>
+                <button type="button" class="btn btn-light" data-toggle="modal" data-target="#EditModal" data-whatever="@item.ID">
+                    #Edit
+                </button>
+
+                @Ajax.ActionLink("A Edit", "Edit", new { id = item.ID },new AjaxOptions()
+           {
+                UpdateTargetId="UpdatedData",
+                HttpMethod="get",
+                InsertionMode= InsertionMode.Replace,
+                OnSuccess="closemodale()"
+           }
+           , htmlAttributes: new { @class = "btn btn-info" })
+
+
+            </td>
+
+            <td>
+
+                <a href="/products/delete/@item.ID" class="btn">Delete</a>
+                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="DeleteModal">
+                    Delete
+                </button>
+            </td>
+        </tr>
+    }
+
+</table>
+
+
+<!-- Modal -->
+<div class="modal fade" id="EditModal" tabindex="-1" role="dialog" aria-labelledby="EditModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="EditModalLabel">Edit Product</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" id="UpdatedData">
+                @*@Request.Url.Segments[0].ToString()
+                @Ajax.ViewData.Model.Count()
+                @Html.Action("Edit", new { id = int.TryParse(Request.Url.Segments.Last(), out int i) ? i : 27 })*@
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="DeleteModal" tabindex="-1" role="dialog" aria-labelledby="DeleteModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="DeleteModalLabel">Delete Product</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                ...
+                @*@Html.Action("Delete")*@
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section scripts
+{
+    <script>
+       
+        function closemodale() {
+
+            $("#EditModal").modal("toggle");
+            @*@Html.Action("Edit", new { id = data })*@
+        }
+    </script>
+
+}

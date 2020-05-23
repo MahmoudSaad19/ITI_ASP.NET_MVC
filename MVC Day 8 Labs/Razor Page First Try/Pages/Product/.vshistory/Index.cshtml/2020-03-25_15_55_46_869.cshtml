@@ -1,0 +1,104 @@
+﻿@page
+@model Razor_Page_First_Try.Pages.Product.IndexModel
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Product Name </th>
+            <th>Price </th>
+            <th>Units</th>
+            <th>Supplier</th>
+            <th>@Model.AllSuppliers.FirstOrDefault().Name </th>
+            <th> </th>
+        </tr>
+    </thead>
+    <tbody>
+
+        @foreach (var item in Model.MyProducts)
+        {
+            <tr id="@item.Id">
+                <td>@item.ProductName</td>
+                <td>@item.Price</td>
+                <td>@item.Units</td>
+                <td>
+                    @item.Supplier?.Name
+                </td>
+                <td><button onclick="modify(@item.Id)" class="btn btn-primary">Edit</button></td>
+                <td>
+                    <form method="post">
+                        <input type="submit" class="btn btn-danger" value="Delete" asp-route-id="@item.Id" asp-page-handler="Delete" />
+                    </form>
+                </td>
+            </tr>
+
+
+            <form method="post" class="form form-group edit @item.Id">
+                <tr class="@item.Id edit">
+                    <td>
+                        <input name="ProductName" class="form-control" min="1" maxlength="50" required value="@item.ProductName" />
+                    </td>
+
+                    <td>
+                        <input name="Price" class="form-control" min="1" max="10000" value="@item.Price" />
+                    </td>
+
+                    <td>
+                        <input name="Units" class="form-control" min="0" max="10000" value="@item.Units" />
+                    </td>
+
+                    <td>
+                            <input type="submit" class="btn btn-success" value="Edit" asp-route-id="@item.Id" asp-page-handler="Edit" />
+                    </td>
+                    <td>
+                        <form method="post">
+                            <input type="submit" class="btn btn-danger" value="Delete" asp-route-id="@item.Id" asp-page-handler="Delete" />
+                        </form>
+                    </td>
+
+                </tr>
+
+            </form>
+        }
+    </tbody>
+    <tfoot>
+        <form method="post" class="form form-group">
+            <tr>
+                <td>
+                    <input name="ProductName" class="form-control" min="1" maxlength="50" required />
+                </td>
+
+                <td>
+                    <input name="Price" class="form-control" min="1" max="10000" value="1" />
+                </td>
+
+                <td>
+                    <input name="Units" class="form-control" min="0" max="10000" value="0" />
+                </td>
+
+                <td>
+                    <input type="submit" value="Add" class="btn btn-success" asp-page-handler="Add"/>
+                </td>
+            </tr>
+
+        </form>
+    </tfoot>
+</table>
+
+
+@section scripts{
+
+    <script>
+    $('.edit').hide();
+
+    function modify(id) {
+        $('#' + id).hide();
+        $('.' + id).show();
+
+    }
+    </script>
+}
+

@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewData["Title"] = "add";
+}
+
+    <form method="post" asp-action="add" action="/product/add" class="form-group">
+        <label asp-for="ProductName"></label>
+        <input asp-for="ProductName" />
+
+        <label asp-for="Price"></label>
+        <input asp-for="Price" />
+
+        <label asp-for="Units"></label>
+        <input asp-for="Units" />
+        
+    </form>
+

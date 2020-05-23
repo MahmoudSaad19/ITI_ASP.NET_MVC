@@ -1,0 +1,26 @@
+﻿@model CRUD_Operations_with_DB_Context.Models.Product
+
+@{
+    ViewBag.Title = "Update";
+}
+
+    <div>
+        <center>
+            <form class="form-group col-lg-6" action="/student/update">
+                <label>ID</label>
+                <input type="text" name="ID" value="@Model.SupID" class="form-control" readonly />
+                <br />
+                <label>Name</label>
+                <input type="text" name="Name" value="@Model.Name" class="form-control" />
+                <br />
+                <label>City</label>
+                <input type="text" name="Age" value="@Model.City" class="form-control" />
+                <br />
+                <label>Address</label>
+                <input type="text" name="Address" value="@Model.Address" class="form-control" />
+                <br />
+                <input type="submit" class="btn btn-success" />
+            </form>
+        </center>
+    </div>
+

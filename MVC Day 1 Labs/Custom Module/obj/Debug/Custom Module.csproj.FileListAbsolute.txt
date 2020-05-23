@@ -1,0 +1,5 @@
+C:\Users\Mahmoud\source\repos\MVC Day 1 Labs\Custom Module\bin\Debug\Custom Module.dll
+C:\Users\Mahmoud\source\repos\MVC Day 1 Labs\Custom Module\bin\Debug\Custom Module.pdb
+C:\Users\Mahmoud\source\repos\MVC Day 1 Labs\Custom Module\obj\Debug\Custom Module.csprojAssemblyReference.cache
+C:\Users\Mahmoud\source\repos\MVC Day 1 Labs\Custom Module\obj\Debug\Custom Module.dll
+C:\Users\Mahmoud\source\repos\MVC Day 1 Labs\Custom Module\obj\Debug\Custom Module.pdb

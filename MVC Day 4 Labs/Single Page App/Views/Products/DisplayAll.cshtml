@@ -1,0 +1,70 @@
+﻿@model IEnumerable<Single_Page_App.Models.Product>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ProductName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Units)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Price)
+        </th>
+        <th></th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProductName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Units)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                @*<a href="/products/Edit/@item.ID" class="btn btn-light" onclick="closemodale(@item.ID)"> Edit </a>
+                <button type="button" class="btn btn-light" data-toggle="modal" data-target="#EditModal" data-whatever="@item.ID">
+                    #Edit
+                </button>*@
+
+                @Ajax.ActionLink("Edit", "Edit", new { id = item.ID },new AjaxOptions()
+           {
+                UpdateTargetId="UpdatedData",
+                HttpMethod="get",
+                InsertionMode= InsertionMode.Replace,
+                OnSuccess="closemodale()"
+           }
+           , htmlAttributes: new { @class = "btn btn-info" })
+
+
+            </td>
+
+            <td>
+                @Ajax.ActionLink("Delete", "Delete", new { id = item.ID }, new AjaxOptions()
+          {
+               UpdateTargetId = "DeleteData",
+               HttpMethod = "get",
+               InsertionMode = InsertionMode.Replace,
+               OnSuccess = "closemodalfordelete()"
+          }
+          , htmlAttributes: new { @class = "btn btn-danger" })
+
+                @*<a href="/products/delete/@item.ID" class="btn">Delete</a>
+                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="DeleteModal">
+                    Delete
+                </button>*@
+            </td>
+        </tr>
+    }
+
+</table>
+

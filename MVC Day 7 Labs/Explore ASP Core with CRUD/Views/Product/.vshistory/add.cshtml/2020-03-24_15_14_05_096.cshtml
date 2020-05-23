@@ -1,0 +1,25 @@
+﻿@model Products
+
+@{
+    ViewData["Title"] = "add";
+}
+
+    <form method="post" action="/product/add" class="form form-group">
+        <label asp-for="ProductName" class="form-control"></label>
+        <input asp-for="ProductName"  class="form-control"/>
+        <span asp-validation-for="ProductName" class="alert-danger"></span>
+
+        <br />
+        <label asp-for="Price" class="form-control"></label>
+        <input asp-for="Price" class="form-control" min="1" max="10000" value="0"/>
+
+        <br />
+
+        <label asp-for="Units" class="form-control"></label>
+        <input asp-for="Units" class="form-control" min="0" max="10000" value="0"/>
+        <br />
+
+        <input type="submit" value="Add" class="btn btn-success" />
+
+    </form>
+
